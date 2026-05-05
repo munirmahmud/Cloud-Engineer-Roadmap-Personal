@@ -1,14 +1,14 @@
-# Syllabus 1: Junior Cloud/DevOps Engineer Roadmap
-## 🎯 12-Week Beginner-to-Job-Ready Program (AWS Focus)
+# Junior Cloud/DevOps Engineer Roadmap
+## 12-Week Beginner-to-Job-Ready Program (AWS Focus)
 
-## 📋 Program Overview
+## Program Overview
 
 | Field | Detail |
 |-------|--------|
 | **Target Roles** | Junior Cloud Engineer, Junior DevOps Engineer, Cloud Associate, Cloud Support Engineer |
 | **Duration** | 3 Months (12 Weeks) |
 | **Commitment** | 15–20 hours/week (2–3 hours daily) |
-| **Prerequisite** | None — Complete beginner friendly |
+| **Prerequisite** | None - Complete beginner friendly |
 | **Cloud Focus** | AWS (Amazon Web Services) |
 | **Expected Outcome** | Job-ready for Junior Cloud/DevOps roles with portfolio + certification |
 
@@ -28,15 +28,15 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 ক্লাউড শেখার আগে IT fundamentals strong হতে হবে। বাড়ি বানাতে গেলে যেভাবে foundation লাগে, ঠিক তেমন।
 
 
-## 🗓️ Week 1: Linux Fundamentals
+## Week 1: Linux Fundamentals
 
-**Focus:** Linux operating system basics — the backbone of every cloud workload
+**Focus:** Linux operating system basics - the backbone of every cloud workload
 
-### 🎯 Learning Objectives
-- Terminal দিয়ে Linux file system efficiently navigate করতে পারবে
-- File permissions ও ownership manage করতে পারবে
-- Software package install/update/remove করতে পারবে
-- Basic system administration tasks করতে পারবে
+### Learning Objectives
+- Terminal দিয়ে Linux file system efficiently navigate করতে পারবেন
+- File permissions ও ownership manage করতে পারবেন
+- Software package install/update/remove করতে পারবেন
+- Basic system administration tasks করতে পারবেন
 
 ### Lecture Topics
 
@@ -58,11 +58,11 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 | 1.14 | Package Management on RHEL/CentOS (yum, dnf, rpm) |
 
 ### Hands-on Tasks
-- [ ] VirtualBox-এ Ubuntu 22.04 install করো (or WSL2 on Windows)
-- [ ] ৫০+ commands practice করো cheat sheet বানাতে বানাতে
-- [ ] ৩ জন new user create করো different permissions সহ
-- [ ] Nginx install করে browser থেকে access করো
-- [ ] `/var/log/` directory explore করে system logs analyze করো
+- [ ] VirtualBox-এ Ubuntu 22.04 install করুন (or WSL2 on Windows)
+- [ ] ৫০+ commands practice করুন cheat sheet বানাতে বানাতে
+- [ ] ৩ জন new user create করুন different permissions সহ
+- [ ] Nginx install করে browser থেকে access করুন
+- [ ] `/var/log/` directory explore করে system logs analyze করুন
 
 ### Resources
 - **Free:** [Linux Journey](https://linuxjourney.com/), [freeCodeCamp - Linux for Hackers](https://www.youtube.com/watch?v=sWbUDq4S6Y8)
@@ -71,18 +71,18 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 - **Book (optional):** "The Linux Command Line" by William Shotts (Free PDF)
 
 ### Week 1 Checkpoint
-**Deliverable:** GitHub-এ একটা repo বানাও `linux-week-1` name দিয়ে, একটা `NOTES.md` file-এ top 50 commands cheat sheet লিখে commit করো। + একটা 5-minute screen recording বানাও YouTube-এ (unlisted) কীভাবে তুমি file permissions manage করছো।
+**Deliverable:** GitHub-এ একটা repo তৈরি করুন `linux-week-1` name দিয়ে, একটা `NOTES.md` file-এ top 50 commands cheat sheet লিখে commit করুন।
 
 
-## 🗓️ Week 2: Linux Advanced + Bash Scripting
+## Week 2: Linux Advanced + Bash Scripting
 
-**Focus:** Automation এর প্রথম step — Bash scripting দিয়ে repetitive কাজ automate করা
+**Focus:** Automation এর প্রথম step - Bash scripting দিয়ে repetitive কাজ automate করা
 
-### 🎯 Learning Objectives
-- Processes manage করতে পারবে (start, stop, monitor, kill)
-- System logs ও resources monitor করতে পারবে
-- Functional Bash scripts লিখতে পারবে
-- Cron দিয়ে scheduled automation করতে পারবে
+### Learning Objectives
+- Processes manage করতে পারবেন (start, stop, monitor, kill)
+- System logs ও resources monitor করতে পারবেন
+- Functional Bash scripts লিখতে পারবেন
+- Cron দিয়ে scheduled automation করতে পারবেন
 
 ### Lecture Topics
 
@@ -106,38 +106,38 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 | 2.16 | SSH Basics (ssh, scp, ssh-keygen, authorized_keys) |
 
 ### Hands-on Tasks
-- [ ] একটা backup script লেখো যে specific directory `.tar.gz` বানাবে
-- [ ] একটা monitoring script লেখো যে CPU 80%+ হলে alert দেবে
-- [ ] SSH key-pair generate করে passwordless login setup করো
-- [ ] Cron job setup করো প্রতেক দিন রাত ১২টায় auto backup নিতে
-- [ ] Log parser script লেখো যে nginx access log থেকে top 10 IP বের করবে
+- [ ] একটা backup script লিখুন যে specific directory `.tar.gz` বানাবে
+- [ ] একটা monitoring script লিখুন যে CPU 80%+ হলে alert দেবে
+- [ ] SSH key-pair generate করে passwordless login setup করুন
+- [ ] Cron job setup করুন প্রতেক দিন রাত ১২টায় auto backup নিতে
+- [ ] Log parser script লিখুন যে nginx access log থেকে top 10 IP বের করবে
 
 ### Resources
 - **Free:** [LearnShell.org](https://www.learnshell.org/), [Bash Scripting Tutorial on YouTube by Joe Collins](https://www.youtube.com/watch?v=e7BufAVwDiM)
 - **YouTube:** NetworkChuck Bash series, ExplainingComputers
 - **Docs:** [GNU Bash Manual](https://www.gnu.org/software/bash/manual/)
-- **Practice:** [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) — fun way to master Linux
+- **Practice:** [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) - fun way to master Linux
 
 ### Week 2 Checkpoint
-**Deliverable:** GitHub repo `bash-automation-toolkit` বানাও, এতে ৫টা useful script থাকবে — `backup.sh`, `system-monitor.sh`, `log-analyzer.sh`, `user-onboarding.sh`, `disk-cleanup.sh`। Proper README লেখো কীভাবে use করতে হয়।
+**Deliverable:** GitHub repo `bash-automation-toolkit` তৈরি করুন, এতে ৫টা useful script থাকবে যেমন `backup.sh`, `system-monitor.sh`, `log-analyzer.sh`, `user-onboarding.sh`, `disk-cleanup.sh`। Proper README লিখুন কীভাবে use করতে হয়।
 
 
-## 🗓️ Week 3: Networking Fundamentals
+## Week 3: Networking Fundamentals
 
 **Focus:** Network বুঝতে না পারলে cloud-এ trouble-shoot করা impossible
 
-### 🎯 Learning Objectives
-- OSI model ও TCP/IP stack বুঝতে পারবে
-- IP addressing, subnetting, CIDR calculate করতে পারবে
-- DNS, load balancing, firewall concepts explain করতে পারবে
-- Basic network troubleshooting tools use করতে পারবে
+### Learning Objectives
+- OSI model ও TCP/IP stack বুঝতে পারবেন
+- IP addressing, subnetting, CIDR calculate করতে পারবেন
+- DNS, load balancing, firewall concepts explain করতে পারবেন
+- Basic network troubleshooting tools use করতে পারবেন
 
 ### Lecture Topics
 
 | # | Lecture Title |
 |---|---------------|
 | 3.1 | What is a Network? LAN, WAN, MAN Overview |
-| 3.2 | OSI Model — 7 Layers Explained with Examples |
+| 3.2 | OSI Model - 7 Layers Explained with Examples |
 | 3.3 | TCP/IP Model and How It Maps to OSI |
 | 3.4 | IP Addressing: IPv4 Structure and Classes |
 | 3.5 | Public vs Private IP Addresses |
@@ -145,8 +145,8 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 | 3.7 | IPv6 Basics and Why It Exists |
 | 3.8 | TCP vs UDP Protocol Comparison |
 | 3.9 | Common Ports and Protocols (80, 443, 22, 3306, etc.) |
-| 3.10 | DNS — How Domain Names Resolve to IPs |
-| 3.11 | DHCP — How Devices Get IP Addresses |
+| 3.10 | DNS - How Domain Names Resolve to IPs |
+| 3.11 | DHCP - How Devices Get IP Addresses |
 | 3.12 | HTTP/HTTPS Deep Dive |
 | 3.13 | SSL/TLS and Symmetric vs Asymmetric Encryption |
 | 3.14 | Firewalls, NAT, and Port Forwarding |
@@ -155,11 +155,11 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 | 3.17 | Network Troubleshooting Tools (ping, traceroute, nslookup, dig, netstat, ss, tcpdump) |
 
 ### Hands-on Tasks
-- [ ] ১০টা subnetting problem solve করো (pen-and-paper)
-- [ ] Wireshark install করে HTTP request packet capture করো
-- [ ] `dig` ও `nslookup` দিয়ে different DNS records check করো (A, MX, CNAME, TXT)
-- [ ] `traceroute google.com` run করে প্রতেক hop explain করো
-- [ ] iptables দিয়ে simple firewall rule create করো
+- [ ] ১০টা subnetting problem solve করুন (pen-and-paper)
+- [ ] Wireshark install করে HTTP request packet capture করুন
+- [ ] `dig` ও `nslookup` দিয়ে different DNS records check করুন (A, MX, CNAME, TXT)
+- [ ] `traceroute google.com` run করে প্রতেক hop explain করুন
+- [ ] iptables দিয়ে simple firewall rule create করুন
 
 ### Resources
 - **Free:** [Professor Messer Network+ Course](https://www.professormesser.com/network-plus/n10-008/n10-008-video/n10-008-training-course/) (GOLD STANDARD)
@@ -168,17 +168,17 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 - **Interactive:** [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer)
 
 ### Week 3 Checkpoint
-**Deliverable:** একটা Medium/LinkedIn/Dev.to blog post লেখো "10 Networking Concepts Every Cloud Engineer Must Know" title-এ। Proper diagrams add করো (Excalidraw or draw.io use করো)। এইটা তোমার portfolio-র first public proof হবে।
+**Deliverable:** একটা Medium/LinkedIn/Dev.to blog post লিখুন যেমন "10 Networking Concepts Every Cloud Engineer Must Know" title-এ। Proper diagrams add করুন (Excalidraw or draw.io use করুন)। এইটা আপনার portfolio-র first public proof হবে।
 
-## 🗓️ Week 4: Git, GitHub, and Python Basics
+## Week 4: Git, GitHub, and Python Basics
 
-**Focus:** Version control (Git) + automation language (Python) — যেকোনো DevOps role এর must-have
+**Focus:** Version control (Git) + automation language (Python) যেকোনো DevOps role এর must-have
 
-### 🎯 Learning Objectives
-- Git দিয়ে code version control করতে পারবে professionally
-- GitHub-এ collaborate, pull request, code review করতে পারবে
-- Python দিয়ে simple scripts ও AWS automation লিখতে পারবে
-- Boto3 (AWS SDK for Python) দিয়ে programmatically AWS resource manage করতে পারবে
+### Learning Objectives
+- Git দিয়ে code version control করতে পারবেন professionally
+- GitHub-এ collaborate, pull request, code review করতে পারবেন
+- Python দিয়ে simple scripts ও AWS automation লিখতে পারবেন
+- Boto3 (AWS SDK for Python) দিয়ে programmatically AWS resource manage করতে পারবেন
 
 ### Lecture Topics
 
@@ -213,9 +213,9 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 | 4.20 | Introduction to Boto3 (AWS SDK) |
 
 ### Hands-on Tasks
-- [ ] GitHub-এ professional profile বানাও (bio, pinned repos, README profile)
-- [ ] ৫টা different repository বানাও different branches দিয়ে
-- [ ] একটা open-source project-এ first PR contribute করো (documentation typo fix-ও adequate)
+- [ ] GitHub-এ professional profile তৈরি করুন (bio, pinned repos, README profile)
+- [ ] ৫টা different repository তৈরি করুন different branches দিয়ে
+- [ ] একটা open-source project-এ first PR contribute করুন (documentation typo fix-ও adequate)
 - [ ] Python script লেখো যে disk usage check করে alert দেবে
 - [ ] Boto3 দিয়ে script লেখো যে all S3 buckets list করবে
 
@@ -223,26 +223,26 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 - **Git/GitHub:** [GitHub Skills](https://skills.github.com/), [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
 - **Python:** [Python for Everybody by Dr. Chuck](https://www.py4e.com/) (Free), [Automate the Boring Stuff](https://automatetheboringstuff.com/)
 - **Boto3:** [AWS Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
-- **Interactive:** [Learn Git Branching](https://learngitbranching.js.org/) — visual + fun
+- **Interactive:** [Learn Git Branching](https://learngitbranching.js.org/) - visual + fun
 
 ### Week 4 Checkpoint
-**Deliverable:** GitHub profile complete (pinned 4 repos, bio, README)। একটা Python project `aws-resource-checker` বানাও যে boto3 দিয়ে EC2, S3, RDS resources list করবে। Code-এ proper docstrings, error handling, README থাকবে।
+**Deliverable:** GitHub profile complete (pinned 4 repos, bio, README)। একটা Python project `aws-resource-checker` তৈরি করুন যে boto3 দিয়ে EC2, S3, RDS resources list করবে। Code-এ proper docstrings, error handling, README থাকবে।
 
 
-# 📅 MONTH 2: AWS CORE SERVICES
+# MONTH 2: AWS CORE SERVICES
 
 এখন actual AWS-এ dive করবো। Free Tier account দিয়ে practical কাজ করতে হবে প্রতি week-এ।
 
 
-## 🗓️ Week 5: AWS Foundations + IAM
+## Week 5: AWS Foundations + IAM
 
 **Focus:** AWS-এর global architecture বুঝতে হবে + security first approach শিখতে হবে
 
-### 🎯 Learning Objectives
-- AWS global infrastructure (Regions, AZs, Edge Locations) বুঝতে পারবে
-- AWS CLI install করে configure করতে পারবে
-- IAM users, groups, roles, policies properly setup করতে পারবে
-- Least privilege principle follow করে secure environment build করতে পারবে
+### Learning Objectives
+- AWS global infrastructure (Regions, AZs, Edge Locations) বুঝতে পারবেন
+- AWS CLI install করে configure করতে পারবেন
+- IAM users, groups, roles, policies properly setup করতে পারবেন
+- Least privilege principle follow করে secure environment build করতে পারবেন
 
 ### Lecture Topics
 
@@ -251,14 +251,14 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 | 5.1 | Cloud Computing Fundamentals (IaaS, PaaS, SaaS) |
 | 5.2 | Why AWS? Market Share and Service Overview |
 | 5.3 | AWS Global Infrastructure (Regions, AZs, Edge Locations, Local Zones) |
-| 5.4 | AWS Free Tier Explained — কোন service free, কোনটা নয় |
+| 5.4 | AWS Free Tier Explained - কোন service free, কোনটা নয় |
 | 5.5 | Creating AWS Account Safely (Root vs IAM User) |
 | 5.6 | AWS Billing Dashboard and Budget Alerts (IMPORTANT!) |
 | 5.7 | AWS Console Tour and Navigation |
 | 5.8 | AWS CLI Installation and Configuration (aws configure) |
-| 5.9 | Understanding IAM — The Security Backbone |
+| 5.9 | Understanding IAM - The Security Backbone |
 | 5.10 | IAM Users, Groups, and Access Keys |
-| 5.11 | IAM Policies (Managed, Custom, Inline) — JSON Structure |
+| 5.11 | IAM Policies (Managed, Custom, Inline) - JSON Structure |
 | 5.12 | IAM Roles and When to Use Them |
 | 5.13 | MFA (Multi-Factor Authentication) Setup |
 | 5.14 | AWS CloudShell vs Local CLI |
@@ -269,29 +269,29 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 - [ ] AWS Free Tier account create করো, root user-এ MFA enable করো
 - [ ] Billing alert setup করো $5 threshold-এ (SURPRISE bill থেকে বাঁচবে!)
 - [ ] IAM user create করো নিজের কাজের জন্য (root use NEVER করবে না)
-- [ ] AdminGroup, DevGroup, ReadOnlyGroup — ৩টা group create করো different permissions দিয়ে
+- [ ] AdminGroup, DevGroup, ReadOnlyGroup - ৩টা group create করো different permissions দিয়ে
 - [ ] EC2-read only IAM role create করো
 - [ ] AWS CLI install করে `aws s3 ls` command run করো
 
 ### Resources
-- **Free:** [AWS Cloud Practitioner Essentials (Official)](https://aws.amazon.com/training/learn-about/cloud-practitioner/) — FREE and official
+- **Free:** [AWS Cloud Practitioner Essentials (Official)](https://aws.amazon.com/training/learn-about/cloud-practitioner/) - FREE and official
 - **YouTube:** Stephane Maarek's AWS channel, freeCodeCamp AWS Practitioner course
 - **Docs:** [AWS IAM Documentation](https://docs.aws.amazon.com/iam/)
-- **Hands-on:** [AWS Skill Builder](https://skillbuilder.aws/) — free labs
+- **Hands-on:** [AWS Skill Builder](https://skillbuilder.aws/) - free labs
 
 ### Week 5 Checkpoint
-**Deliverable:** Screenshot document (PDF) বানাও ১০ pages — তোমার IAM setup দেখিয়ে (users, groups, roles, policies, MFA enabled)। GitHub-এ একটা repo `aws-iam-lab` push করো যেতে IAM policy JSONs থাকবে।
+**Deliverable:** Screenshot document (PDF) তৈরি করুন ১০ pages - তোমার IAM setup দেখিয়ে (users, groups, roles, policies, MFA enabled)। GitHub-এ একটা repo `aws-iam-lab` push করো যেতে IAM policy JSONs থাকবে।
 
 
-## 🗓️ Week 6: AWS Compute (EC2) + Storage (S3, EBS)
+## Week 6: AWS Compute (EC2) + Storage (S3, EBS)
 
-**Focus:** AWS-এর দুইটা most-used services — EC2 (virtual servers) and S3 (object storage)
+**Focus:** AWS-এর দুইটা most-used services - EC2 (virtual servers) and S3 (object storage)
 
-### 🎯 Learning Objectives
-- EC2 instance launch, connect, manage করতে পারবে
-- Proper security group configuration করতে পারবে
-- S3 bucket বানাতে, files upload করতে, permissions set করতে পারবে
-- EBS volumes attach, snapshot, backup করতে পারবে
+### Learning Objectives
+- EC2 instance launch, connect, manage করতে পারবেন
+- Proper security group configuration করতে পারবেন
+- S3 bucket বানাতে, files upload করতে, permissions set করতে পারবেন
+- EBS volumes attach, snapshot, backup করতে পারবেন
 
 ### Lecture Topics
 
@@ -300,7 +300,7 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 | # | Lecture Title |
 |---|---------------|
 | 6.1 | What is EC2 and Virtual Machines in Cloud |
-| 6.2 | EC2 Instance Types (t2.micro, m5, c5, r5 — when to use what) |
+| 6.2 | EC2 Instance Types (t2.micro, m5, c5, r5 - when to use what) |
 | 6.3 | AMI (Amazon Machine Image) Deep Dive |
 | 6.4 | Launching Your First EC2 Instance Step-by-Step |
 | 6.5 | Key Pairs and SSH Access (.pem files) |
@@ -320,7 +320,7 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 | 6.14 | S3 Bucket Policies and ACLs |
 | 6.15 | S3 Versioning and Lifecycle Rules |
 | 6.16 | S3 Static Website Hosting |
-| 6.17 | EBS (Elastic Block Store) — Volumes and Snapshots |
+| 6.17 | EBS (Elastic Block Store) - Volumes and Snapshots |
 | 6.18 | EBS Volume Types (gp3, io2, st1, sc1) |
 | 6.19 | EFS (Elastic File System) Introduction |
 
@@ -331,7 +331,7 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 - [ ] S3 bucket create করে static HTML website host করো
 - [ ] S3 bucket-এ versioning enable করে file delete-এর পর restore করো
 - [ ] EBS snapshot নাও, তার থেকে new volume create করে other AZ-এ attach করো
-- [ ] একটা EC2 stop/start করলে IP change হয় vs Elastic IP use করলে হয় না — এইটা prove করো
+- [ ] একটা EC2 stop/start করলে IP change হয় vs Elastic IP use করলে হয় না - এইটা prove করো
 
 ### Resources
 - **YouTube:** Stephane Maarek's EC2 section, TechWorld with Nana AWS series
@@ -339,18 +339,18 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 - **Labs:** [AWS Skill Builder EC2 Labs](https://skillbuilder.aws/)
 
 ### Week 6 Checkpoint
-**Deliverable:** S3-এ hosted একটা portfolio website (custom HTML/CSS)। এইটা তোমার first cloud-hosted project — link টা resume-এ add করবে। EC2-এ একটা LAMP stack manually install করে screenshot proof দাও।
+**Deliverable:** S3-এ hosted একটা portfolio website (custom HTML/CSS)। এইটা তোমার first cloud-hosted project - link টা resume-এ add করবে। EC2-এ একটা LAMP stack manually install করে screenshot proof দাও।
 
 
 ## 🗓️ Week 7: AWS Networking (VPC) + Databases
 
-**Focus:** VPC — AWS-এর most confusing but most important service। + Managed databases।
+**Focus:** VPC - AWS-এর most confusing but most important service। + Managed databases।
 
 ### 🎯 Learning Objectives
-- Custom VPC design ও implement করতে পারবে with public/private subnets
-- Internet Gateway, NAT Gateway, Route Tables configure করতে পারবে
-- RDS দিয়ে managed relational database launch করতে পারবে
-- DynamoDB basics বুঝতে পারবে (NoSQL)
+- Custom VPC design ও implement করতে পারবেন with public/private subnets
+- Internet Gateway, NAT Gateway, Route Tables configure করতে পারবেন
+- RDS দিয়ে managed relational database launch করতে পারবেন
+- DynamoDB basics বুঝতে পারবেন (NoSQL)
 
 ### Lecture Topics
 
@@ -360,16 +360,16 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 |---|---------------|
 | 7.1 | Why VPC? Default VPC vs Custom VPC |
 | 7.2 | VPC CIDR Blocks and IP Planning |
-| 7.3 | Subnets — Public vs Private Explained |
+| 7.3 | Subnets - Public vs Private Explained |
 | 7.4 | Internet Gateway (IGW) and Route Tables |
 | 7.5 | NAT Gateway vs NAT Instance |
 | 7.6 | Security Groups vs NACLs (Deep Comparison) |
 | 7.7 | VPC Peering Basics |
 | 7.8 | VPC Endpoints (Gateway vs Interface) |
 | 7.9 | Elastic Load Balancer (ELB) Overview |
-| 7.10 | ALB vs NLB vs CLB — When to Use What |
+| 7.10 | ALB vs NLB vs CLB - When to Use What |
 | 7.11 | Auto Scaling Groups (ASG) Basics |
-| 7.12 | Route 53 — DNS Service Introduction |
+| 7.12 | Route 53 - DNS Service Introduction |
 
 **Part B: Databases on AWS**
 
@@ -384,12 +384,12 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 | 7.19 | Database Security (Encryption, Parameter Groups, Security Groups) |
 
 ### Hands-on Tasks
-- [ ] Custom VPC বানাও 10.0.0.0/16 CIDR-এ with ২ public + ২ private subnets (multi-AZ)
+- [ ] Custom VPC তৈরি করুন 10.0.0.0/16 CIDR-এ with ২ public + ২ private subnets (multi-AZ)
 - [ ] IGW attach করো, route table configure করো, NAT Gateway setup করো
-- [ ] Public subnet-এ একটা EC2 launch করো, private subnet-এ অন্য একটা — private থেকে internet access prove করো NAT দিয়ে
+- [ ] Public subnet-এ একটা EC2 launch করো, private subnet-এ অন্য একটা - private থেকে internet access prove করো NAT দিয়ে
 - [ ] Application Load Balancer setup করো ২টা EC2 এর সাথে, different AZ-এ
 - [ ] Private subnet-এ RDS MySQL launch করো, EC2 থেকে connect করো
-- [ ] DynamoDB table বানাও, items insert/query করো AWS CLI দিয়ে
+- [ ] DynamoDB table তৈরি করুন, items insert/query করো AWS CLI দিয়ে
 
 ### Resources
 - **YouTube:** "AWS VPC Core Concepts" by Stephane Maarek, "VPC Peering" by Be A Better Dev
@@ -397,16 +397,16 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 - **Visual:** [VPC Builder Tool](https://aws.amazon.com/vpc/)
 
 ### Week 7 Checkpoint
-**Deliverable:** VPC architecture diagram বানাও (draw.io/Excalidraw) showing 3-tier architecture (Public ALB → Private App Servers → Private RDS)। GitHub-এ push করো with detailed README explaining each component-এর purpose।
+**Deliverable:** VPC architecture diagram তৈরি করুন (draw.io/Excalidraw) showing 3-tier architecture (Public ALB → Private App Servers → Private RDS)। GitHub-এ push করো with detailed README explaining each component-এর purpose।
 
 ## 🗓️ Week 8: Monitoring, Cost Management & Other Essential AWS Services
 
 **Focus:** Observability + cost optimization + other must-know services
 
 ### 🎯 Learning Objectives
-- CloudWatch দিয়ে metrics, logs, alarms setup করতে পারবে
-- CloudTrail দিয়ে audit trail বুঝতে পারবে
-- AWS cost optimize করতে পারবে (very attractive skill for employers!)
+- CloudWatch দিয়ে metrics, logs, alarms setup করতে পারবেন
+- CloudTrail দিয়ে audit trail বুঝতে পারবেন
+- AWS cost optimize করতে পারবেন (very attractive skill for employers!)
 - Lambda basics + other essential services overview
 
 ### Lecture Topics
@@ -415,19 +415,19 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 
 | # | Lecture Title |
 |---|---------------|
-| 8.1 | CloudWatch — The Monitoring Swiss Army Knife |
+| 8.1 | CloudWatch - The Monitoring Swiss Army Knife |
 | 8.2 | CloudWatch Metrics (Basic vs Detailed Monitoring) |
 | 8.3 | CloudWatch Logs and Log Groups |
 | 8.4 | CloudWatch Alarms and SNS Notifications |
 | 8.5 | CloudWatch Dashboards |
-| 8.6 | CloudTrail — Who Did What When in AWS |
+| 8.6 | CloudTrail - Who Did What When in AWS |
 | 8.7 | AWS Config Introduction |
 
 **Part B: Serverless & Other Services**
 
 | # | Lecture Title |
 |---|---------------|
-| 8.8 | Lambda — Serverless Compute Introduction |
+| 8.8 | Lambda - Serverless Compute Introduction |
 | 8.9 | API Gateway Basics |
 | 8.10 | SNS (Simple Notification Service) |
 | 8.11 | SQS (Simple Queue Service) |
@@ -456,10 +456,10 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 ### Resources
 - **YouTube:** Be A Better Dev's CloudWatch series, Stephane Maarek's Lambda tutorial
 - **Docs:** [CloudWatch User Guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/), [Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/)
-- **Cost:** [AWS Well-Architected — Cost Pillar](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html)
+- **Cost:** [AWS Well-Architected - Cost Pillar](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html)
 
 ### Week 8 Checkpoint
-**Deliverable:** Blog post লেখো "My First Month with AWS: 10 Services I Learned and 5 Mistakes I Made"। Social media (LinkedIn)-এ share করো — এইটা তোমার visibility boost করবে significantly। Recruiters এই post দেখে approach করতে পারে।
+**Deliverable:** Blog post লেখো "My First Month with AWS: 10 Services I Learned and 5 Mistakes I Made"। Social media (LinkedIn)-এ share করো - এইটা তোমার visibility boost করবে significantly। Recruiters এই post দেখে approach করতে পারে।
 
 
 # 📅 MONTH 3: CAPSTONE PROJECTS + JOB PREP
@@ -467,7 +467,7 @@ Month 1: IT Foundations          Month 2: AWS Core Services       Month 3: Proje
 Theoretical শেখার পর এখন production-style real project build করবে। **এইগুলাই তোমার interview-এ দেখানো হবে।**
 
 
-## 🗓️ Week 9: Capstone Project 1 — Highly Available Static Website
+## 🗓️ Week 9: Capstone Project 1 - Highly Available Static Website
 
 **Focus:** End-to-end project: code → cloud → HTTPS → CDN
 
@@ -487,7 +487,7 @@ Route 53 (DNS) → CloudFront (CDN + HTTPS) → S3 Bucket (Private, OAI)
 4. GitHub Actions দিয়ে auto-deploy on push
 
 ### Step-by-Step Tasks
-- [ ] **Day 1-2:** HTML/CSS portfolio template বানাও (TailwindCSS use করতে পারো)
+- [ ] **Day 1-2:** HTML/CSS portfolio template তৈরি করুন (TailwindCSS use করতে পারো)
 - [ ] **Day 3:** S3 bucket create করো, static site enable করো
 - [ ] **Day 4:** CloudFront distribution setup করো OAI দিয়ে (S3 directly public NA)
 - [ ] **Day 5:** ACM থেকে SSL certificate নিয়ে CloudFront-এ attach করো
@@ -502,7 +502,7 @@ Route 53 (DNS) → CloudFront (CDN + HTTPS) → S3 Bucket (Private, OAI)
 - ✅ Blog post explaining the architecture decisions
 
 
-## 🗓️ Week 10: Capstone Project 2 — 3-Tier Web Application on AWS
+## 🗓️ Week 10: Capstone Project 2 - 3-Tier Web Application on AWS
 
 **Focus:** Production-grade multi-tier application with HA + monitoring
 
@@ -511,7 +511,7 @@ Route 53 (DNS) → CloudFront (CDN + HTTPS) → S3 Bucket (Private, OAI)
 ```
 Internet → Route 53 → ALB (Public Subnet) 
                       ↓
-                 Auto Scaling Group (Private Subnet) — EC2 instances running app
+                 Auto Scaling Group (Private Subnet) - EC2 instances running app
                       ↓
                  RDS Multi-AZ MySQL (Private Subnet)
 
@@ -528,13 +528,13 @@ Internet → Route 53 → ALB (Public Subnet)
 6. Proper IAM roles (no access keys)
 
 ### Step-by-Step Tasks
-- [ ] **Day 1:** Simple TODO app বানাও (Flask or Node.js + Express)
+- [ ] **Day 1:** Simple TODO app তৈরি করুন (Flask or Node.js + Express)
 - [ ] **Day 2:** Custom VPC setup (Week 7-এর কাজ revise করো)
 - [ ] **Day 3:** RDS MySQL launch private subnet-এ, connection test
 - [ ] **Day 4:** Launch Template create করো User Data দিয়ে app auto-install
 - [ ] **Day 5:** Auto Scaling Group + ALB setup করো
 - [ ] **Day 6:** CloudWatch alarms + SNS topic (CPU, 5XX errors, DB connections)
-- [ ] **Day 7:** Load test করো (Apache Bench or k6) — দেখো scaling কীভাবে কাজ করে
+- [ ] **Day 7:** Load test করো (Apache Bench or k6) - দেখো scaling কীভাবে কাজ করে
 
 ### Deliverables
 - ✅ Live application URL
@@ -547,7 +547,7 @@ Internet → Route 53 → ALB (Public Subnet)
 
 ## 🗓️ Week 11: Review + AWS Certification Prep
 
-**Focus:** Previous 10 weeks consolidate + certification exam — resume-এ credential add করবে
+**Focus:** Previous 10 weeks consolidate + certification exam - resume-এ credential add করবে
 
 ### 🎯 Learning Objectives
 - AWS Certified Cloud Practitioner (CLF-C02) OR Solutions Architect Associate (SAA-C03) exam pass করবে
@@ -555,21 +555,21 @@ Internet → Route 53 → ALB (Public Subnet)
 
 ### Recommended Certification Path
 
-**Option A: AWS Certified Cloud Practitioner (CLF-C02)** — Easier, $100
+**Option A: AWS Certified Cloud Practitioner (CLF-C02)** - Easier, $100
 - Timeline: 1 week prep enough
 - Ideal for: First AWS cert, non-technical background
 - Exam: 65 questions, 90 minutes
 
-**Option B: AWS Certified Solutions Architect Associate (SAA-C03)** — Harder but more valuable, $150
+**Option B: AWS Certified Solutions Architect Associate (SAA-C03)** - Harder but more valuable, $150
 - Timeline: 2-3 weeks prep (this week + extra)
 - Ideal for: If you're confident with Month 2 material
 - Exam: 65 questions, 130 minutes
-- **Recommended by employers** — more weight than Practitioner
+- **Recommended by employers** - more weight than Practitioner
 
 ### Tasks This Week
 - [ ] Full-length practice test নাও (Tutorials Dojo best)
 - [ ] Weak areas identify করো, targeted revision করো
-- [ ] Stephane Maarek's SAA course complete করো (Udemy — often on sale $10-15)
+- [ ] Stephane Maarek's SAA course complete করো (Udemy - often on sale $10-15)
 - [ ] Minimum ৩টা practice exam 75%+ score করো
 - [ ] **Exam schedule করো** (Pearson VUE online from home possible)
 
@@ -584,13 +584,13 @@ Internet → Route 53 → ALB (Public Subnet)
 
 ## 🗓️ Week 12: Interview Preparation + Job Hunting
 
-**Focus:** Technical knowledge already achieved — এখন **communication + strategy** matter করে
+**Focus:** Technical knowledge already achieved - এখন **communication + strategy** matter করে
 
 ### 🎯 Learning Objectives
-- Cloud/DevOps Engineer role-এর জন্য ATS-friendly resume বানাতে পারবে
-- Technical interview questions confidently answer করতে পারবে
-- Behavioral questions STAR format-এ structure করতে পারবে
-- Strategic job application করতে পারবে
+- Cloud/DevOps Engineer role-এর জন্য ATS-friendly resume বানাতে পারবেন
+- Technical interview questions confidently answer করতে পারবেন
+- Behavioral questions STAR format-এ structure করতে পারবেন
+- Strategic job application করতে পারবেন
 
 ### Topics to Master
 
@@ -634,12 +634,12 @@ Internet → Route 53 → ALB (Public Subnet)
 | 12.19 | Tracking Applications (Notion/Spreadsheet) |
 
 ### Hands-on Tasks
-- [ ] Resume বানাও, ৫ জনকে review করাও (Reddit r/EngineeringResumes useful)
+- [ ] Resume তৈরি করুন, ৫ জনকে review করাও (Reddit r/EngineeringResumes useful)
 - [ ] LinkedIn profile fully optimize করো (keyword-stuffed but natural)
-- [ ] Mock interviews নাও — Pramp.com, Interviewing.io (free)
+- [ ] Mock interviews নাও - Pramp.com, Interviewing.io (free)
 - [ ] ৫০টা Top AWS Interview Questions-এর answer লিখে practice করো
 - [ ] ১০টা behavioral stories prepare করো STAR format-এ
-- [ ] Apply to ২০ junior positions (minimum!) — Week 12-এর শেষের দিকে
+- [ ] Apply to ২০ junior positions (minimum!) - Week 12-এর শেষের দিকে
 
 ### Resources
 - **Resume:** [Tech Interview Handbook Resume Guide](https://www.techinterviewhandbook.org/resume/)
@@ -678,7 +678,7 @@ Internet → Route 53 → ALB (Public Subnet)
 - [ ] একটা system down হলে CloudWatch + logs দেখে diagnose করার approach বোঝো?
 - [ ] ১০ min-এ নিজের কোনো project whiteboard-এ explain করতে পারো?
 - [ ] AWS certification already pass করেছো?
-- [ ] Resume + LinkedIn + GitHub — ৩ টাই strong?
+- [ ] Resume + LinkedIn + GitHub - ৩ টাই strong?
 
 যদি ৮+ "Yes" হয় → **Syllabus 2 শুরু করার time!**
 
@@ -686,17 +686,17 @@ Internet → Route 53 → ALB (Public Subnet)
 ## 🚨 Important Notes
 
 ### What NOT to Do
-- ❌ Tutorial hell-এ পড়ে যাবে না — ২ course-এর বেশি এক time-এ না
-- ❌ Certification-এর জন্য memorize করে exam dumps use করবে না — long-term-এ loss
-- ❌ "আমি যোগ্য না" mindset-এ আটকে থাকবে না — apply করো even at 70% readiness
-- ❌ Projects GitHub-এ private রেখে দিবে না — public করো always (credentials ছাড়া)
+- ❌ Tutorial hell-এ পড়ে যাবে না - ২ course-এর বেশি এক time-এ না
+- ❌ Certification-এর জন্য memorize করে exam dumps use করবে না - long-term-এ loss
+- ❌ "আমি যোগ্য না" mindset-এ আটকে থাকবে না - apply করো even at 70% readiness
+- ❌ Projects GitHub-এ private রেখে দিবে না - public করো always (credentials ছাড়া)
 
 ### What TO Do
 - ✅ প্রতি দিন commit করো (GitHub green squares = signal of activity)
-- ✅ Weekly blog post বা LinkedIn post করো — "learning in public"
+- ✅ Weekly blog post বা LinkedIn post করো - "learning in public"
 - ✅ Community-এ join করো: r/devops, r/aws, Discord servers
-- ✅ Free Tier limit সতর্কতার সাথে — projects শেষ হলে resources terminate করো
-- ✅ Note-taking system বানাও (Notion/Obsidian) — interview prep time-এ কাজে দেবে
+- ✅ Free Tier limit সতর্কতার সাথে - projects শেষ হলে resources terminate করো
+- ✅ Note-taking system তৈরি করুন (Notion/Obsidian) - interview prep time-এ কাজে দেবে
 
 
 ## Estimated Costs for Syllabus 1
@@ -709,15 +709,15 @@ Internet → Route 53 → ALB (Public Subnet)
 | Domain name for portfolio | **$10–$15/year** |
 | **Total** | **~$150–$200** |
 
-যদি budget tight হয় — Free Tier + YouTube only দিয়ে কাজ চালাতে পারো। Certification defer করো Syllabus 2-এ।
+যদি budget tight হয় - Free Tier + YouTube only দিয়ে কাজ চালাতে পারো। Certification defer করো Syllabus 2-এ।
 
 
 ## After Syllabus 1
 
-Next: **Syllabus 2 (Weeks 13-24)** — Production-Grade Engineer  
+Next: **Syllabus 2 (Weeks 13-24)** - Production-Grade Engineer  
 Focus: Terraform + Docker + Kubernetes + CI/CD + Advanced Monitoring
 
-এইটা complete করলে তুমি Mid-Level engineer হিসেবে apply করতে পারবে (এমনকি যদি full ২ years experience না থাকে — projects + skills speak louder than YoE)।
+এইটা complete করলে তুমি Mid-Level engineer হিসেবে apply করতে পারবেন (এমনকি যদি full ২ years experience না থাকে - projects + skills speak louder than YoE)।
 
 ---
 
